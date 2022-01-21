@@ -1,0 +1,18 @@
+/*  */
+.successForAdd {
+    color: green;
+    align-items: center;
+}
+
+.errorForAdd {
+    color: red;
+    align-items: center;
+}
+
+.two-column-div {
+    column-count: 2;
+}
+
+
+
+

@@ -1,0 +1,27 @@
+
+.moreInfoClass{
+    background: inherit;
+    border: none;
+    width: auto;
+
+}
+.moreInfoClass :hover{
+    border: none;
+    background: lightskyblue;
+}
+.headerClass{
+    text-align: center;
+    font-size: 45px;
+    background: blue;
+    color: white;
+    font-style: italic;
+    font-family: emoji;
+}
+#more{
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    background: lightgray;
+    color: white;
+}

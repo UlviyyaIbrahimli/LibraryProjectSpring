@@ -1,0 +1,72 @@
+.recBooksTitle{
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-family: serif;
+    font-size: 40px;
+}
+.recBooksTitleDivClass{
+    background: #d5e4e9;
+    height: 70px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+}
+.bookId {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 14%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.inner:hover .bookId {
+    opacity: 0.3;
+}
+
+.inner:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #113b8f;
+    color: white;
+    font-size: 16px;
+    padding: 6px 5px;
+}
+.infoBookItem{
+    border: none;
+    /*width: 75%;*/
+    background-color: inherit;
+    font-size: 10px;
+}
+.infoBookItem :hover{
+    border: none;
+}
+.infoLabel{
+    background-color: inherit;
+    font-size: 15px;
+    color: blue;
+}
+.ranBookTitle{
+    height: 40px;
+    width: 100%;
+    background-color: lightgray;
+    font-family: Serif;
+    font-variant: small-caps;
+    font-style: italic;
+    padding-top: 15px;
+    color: blue;
+    border: 2px solid lightsteelblue;
+}
